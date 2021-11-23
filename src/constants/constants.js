@@ -1,41 +1,42 @@
 export const projects = [
   {
     title: 'Radio APP',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/3.png',
-      tags: ['Php', 'MySql', 'Jquery', 'MVC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    description: "Using Php, MySql, Jquery & MVC I built an MVC application for Radio, where a user can listen to admin's playlist, like and comment",
+    image: '/images/radio.png',
+    tags: ['Php', 'MySql', 'Jquery', 'MVC'],
+    source: 'https://github.com/freddymuleya16/RadioApp',
+    visit: '#',
     id: 0,
   },
   {
     title: 'Freddy Muleya Portfolio',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/3.png',
+    description:"This is my portfolio website built using React and javascript",
+    image: '/images/portfolio.png',
     tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/freddymuleya16/freddy-muleya-portfolio',
+    visit: 'https://freddy-muleya-portfolio.vercel.app/',
     id: 1,
   },
   {
-    title: 'Quiz Game',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.png',
-      tags: ['Kotlin', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Freddy\'s Riddles ',
+    description: "An android Riddle quiz built using Android Kotlin and firebase",
+    image: '/images/Riddles.jpg',
+    tags: ['Kotlin', 'Firebase'],
+    source: 'https://github.com/freddymuleya16/Freddyriddles',
+    visit: '#',
     id: 2,
   },
 ];
 
 export const TimeLineData = [
   { year: 2018, text: 'Started my journey', },
-  { year: 2019, text: 'Worked as a freelance developer', },
-  { year: 2021, text: 'Started at egrowth', }
+  { year: 2019, text: 'Developed Radio App and managed to deploy it live', },
+  { year: 2020, text: 'Started android development and managed to develop Freddy\'s Riddles', },
+  { year: 2021, text: 'Started at eGrowth as a Software developer', }
 ];
 
-export const data = [
+export const Achievementdata = [
   { number: 3, text: 'Open Source Projects'},
-  { number: 6, text: 'Months experience in .Net', },
-  { number: 3, text: 'Web development', }
+  { number: 6, text: 'Months experience in .Net stack', },
+  { number: 3, text: 'Years as Web developer', }
 ];
