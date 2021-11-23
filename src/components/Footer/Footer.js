@@ -1,13 +1,4 @@
 import React from "react";
-import {
-  AiFillFacebook,
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillPhone,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
-import { SocialIcons } from "../Header/HeaderStyles";
 import Socials from "../Socials/Socials";
 import {
   CompanyContainer,
@@ -27,21 +18,21 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-            <LinkItem href="tel:111111111">11111111 </LinkItem>
-          
+          <LinkItem href="tel:+27765680847">+27 76 569 0847 </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-            <LinkItem href="mailto:111111111">11111111 </LinkItem>
-          
+          <LinkItem href="mailto:freddymuley16@gmail.com">
+            freddymuleya16@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>efficent code</Slogan>
+          <Slogan>Creating code that runs efficiently</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <Socials/>
+          <Socials />
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

@@ -19,16 +19,16 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I am a full stack software developer experienced in multile</SectionText>
+    <SectionText>I am a full stack software developer</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            expirience with
+            Experienced in
             <br />
-            React.js
+            React.js and Razor
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,9 +37,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            expirience with
+            Experienced in
             <br />
-            C#
+            C#, Php and Api 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -48,9 +48,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            expirience with
+            Experienced in
             <br />
-            React.js
+            DrawIO and Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
