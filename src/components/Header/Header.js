@@ -9,6 +9,7 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import Socials from "../Socials/Socials";
 
 import {
   Container,
@@ -47,25 +48,7 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://facebook.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://LinkedIn.com">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://github.com">
-        <AiFillFacebook size="3rem" />
-        
-      </SocialIcons>
-      <SocialIcons href="https://github.com" >
-        <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://github.com" >
-        <AiFillPhone size="3rem" />
-      </SocialIcons>
+      <Socials/>
     </Div3>
   </Container>
 );
