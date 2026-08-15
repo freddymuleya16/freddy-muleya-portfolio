@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink font-body text-bone antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-cobalt text-bone;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-cobalt ring-offset-2 ring-offset-ink;
+  }
+
+  .on-bone :focus-visible {
+    @apply ring-offset-bone;
+  }
+}
+
+@layer components {
+  /* The stamp: small mono caps used for departments, statuses and section marks. */
+  .stamp {
+    @apply font-mono text-stamp uppercase;
+  }
+
+  .stamp-lg {
+    @apply font-mono text-stamp-lg uppercase;
+  }
+
+  /* Register row: full-bleed hairline above each entry, cobalt on interaction. */
+  .register-row {
+    @apply relative border-t border-ink-rule transition-colors duration-300;
+  }
+
+  .register-row::after {
+    content: '';
+    @apply pointer-events-none absolute inset-x-0 -top-px h-px origin-left scale-x-0 bg-cobalt transition-transform duration-500;
+  }
+
+  .register-row:hover::after,
+  .register-row:focus-within::after {
+    @apply scale-x-100;
+  }
+
+  .on-bone .register-row {
+    @apply border-bone-rule;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
