@@ -77,6 +77,7 @@ export const systems: readonly SystemEntry[] = [
     role: 'Lead developer',
     shortDepartment: 'Transversal Applications',
     shortRole: 'Lead developer',
+    status: 'In production',
     summary: 'One place for government development teams to publish and reuse approved components.',
     detail:
       'An internal marketplace giving Western Cape Government development teams one place to publish and reuse approved components, standards and templates. Built upload and download, peer review with an approve and reject workflow, and component versioning. Led delivery and directed a second developer added later.',
@@ -121,6 +122,7 @@ export const systems: readonly SystemEntry[] = [
     role: 'Module developer',
     shortDepartment: 'Cultural Affairs & Sport',
     shortRole: 'Module developer',
+    status: 'In production',
     summary: 'Site visits, assessments and incident follow-up under the Customary Initiation Act.',
     detail:
       'Built the monitoring and evaluation module for the province’s traditional initiation oversight system, enabling DCAS officials to conduct and record site visits and assessments at both registered and unregistered initiation schools, log incidents at legal and illegal sites, and track follow-ups and interventions through to resolution. Supports the Customary Initiation Act.',
